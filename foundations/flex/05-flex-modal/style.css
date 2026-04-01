@@ -21,8 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  padding: 32px;
-  gap:52px;
+  padding: 16px;
+  gap: 16px;
 
 }
 
@@ -39,6 +39,7 @@ body {
   justify-content: center;
   text-align: left;
   padding: 10px 10px 10px 10px;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -93,7 +94,7 @@ button.cancel {
   margin-bottom: 15px;
 }
 
-.main{
+.text{
   display: flex;
   justify-content: center;
   flex-shrink: 3;
